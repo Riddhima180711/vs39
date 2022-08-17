@@ -1,0 +1,51 @@
+body{
+    background-position: center;
+    background-size: cover;
+}
+
+h1{
+    color: rgb(255, 255, 0);
+    background-color: rgb(255, 157, 0);
+    font-family: 'Rubik Burned', cursive;
+}
+
+#show_sketch{
+    float: right;
+}
+
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name:example ;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 38px rgb(0, 238, 255) ;}
+    to{box-shadow: 1px 1px 38px rgb(0, 68, 255) ;}
+}
+
+p{
+    padding-top: 10px;
+    font-size: 25px;
+    color: rgb(7, 17, 125);
+    font-family: 'Sacramento', cursive;
+}
+
+#clear_canvas{
+    font-family: 'Pattaya', sans-serif;  
+}
+
+#score{
+    float: left;
+    font-size: 25px;
+    font-family: 'Sacramento', cursive;
+}
+
+#timer{
+    float: right;
+    font-size: 25px;
+    font-family: 'Sacramento', cursive;
+}
